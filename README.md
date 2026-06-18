@@ -37,48 +37,6 @@ CleanIQ uses a modern **React (Vite) + Express (TS)** full-stack architecture to
 
 ---
 
-## 🚦 Getting Started
-
-### 1. Prerequisites
-Ensure you have **Node.js (v18+)** and npm installed on your workspace.
-
-### 2. Environment Configurations
-Prepare your environment variables by copying `.env.example` to `.env`:
-```bash
-cp .env.example .env
-```
-Declare your secret keys inside `.env` safely:
-```env
-# Server-side API Secret (Do NOT prefix with VITE_ to prevent leak)
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-### 3. Installation
-Install all applet packages:
-```bash
-npm install
-```
-
-### 4. Running the Development Sandbox
-Boot up the customized full-stack server (binds on port `3000` internally):
-```bash
-npm run dev
-```
-
-### 5. Running Linter & Production Build
-Validate TypeScript compile configurations & build targets:
-```bash
-# Lint the workspace
-npm run lint
-
-# Compile Vite client assets & bundle backend entry points with esbuild
-npm run build
-
-# Start production server
-npm run start
-```
-
----
 
 ## 📦 Automated Workflows
 
