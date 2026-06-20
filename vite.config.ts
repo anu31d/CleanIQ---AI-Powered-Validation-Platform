@@ -4,7 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/CleanIQ---From-messy-spreadsheets-to-ledger-ready-data/',
+  base: '/CleanIQ---AI-Powered-Validation-Platform/',
 
   plugins: [react(), tailwindcss()],
 
