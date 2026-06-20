@@ -1,4 +1,4 @@
-# CleanIQ — AI-Powered Transaction Sanitizer & Diagnostics
+# CleanIQ — AI-Powered Validation Platform
 
 > 🚀 **Live Demo:** [https://anu31d.github.io/CleanIQ---From-messy-spreadsheets-to-ledger-ready-data/]
 
